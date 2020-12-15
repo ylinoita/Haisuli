@@ -1,0 +1,18 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: #FFFAF0;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#header-nav {
+	background-color: #DCDCDC;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	width: 200px;
+	height: 200px;
+	margin: 10px 15px 10px 0px
+}
