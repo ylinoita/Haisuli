@@ -1,13 +1,14 @@
 body {
 	font-size: 16px;
 	color: black;
-	background-color: #FFFAF0;
+	background-color:#edf7F6;
 	font-family: 'Roboto Mono', monospace;}
 
 #header-nav {
-	background-color: #DCDCDC;
+	background-color: #51e2f5; 
 	border-radius: 0;
-	border: 0;}
+	border: 0;
+}
 
 #logo-img {
 	background-image: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/simo.jpg");
@@ -16,7 +17,7 @@ body {
 	margin: 10px 10px 10px 0px
 }
 
-h1 {
+.navbar-brand h1{
 	font-family: 'Bungee', cursive;
 	font-size: 1,5em;
 	text-transform: uppercase;
@@ -25,20 +26,24 @@ h1 {
 	margin-bottom: 10px;
 	line-height: .75;
 }
-
+.navbar-brand {
+	padding-top: 25px;
+}
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 
 }
 .navbar-brand p {
 	color:black;
+	font-style: bold;
 	text-transform: uppercase;
-	font-size: .7em;
+	font-size: 1.5em;
 	margin-top: 15px;
 }
 
 .navbar-brand p span {
 	vertical-align: middle;
+	text-align: cent
 }
 
 .navbar-toggle {
@@ -57,19 +62,18 @@ h1 {
 #nav-list {
 	margin-top: 10px
 }
-#nav-list a{
-	color: #696969;
+#nav-list a {
+	color: #a28089;
 	text-align: center;
 }
-
 #nav-list a:hover{
 	background: #DCDCDC;
 }
-
 #nav-list a span {
 	font-size: 1.8em;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
 }
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -80,23 +84,27 @@ h1 {
 
 @media (min-width: 1200px) {
 	.container .jumbotron {
-		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/simo%20jumbotron%20iso.jpeg") no-repeat;
-		height: 1600px;
-		border: 2px solid #696969;
+		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/PK%20simo%20iso.jpg") no-repeat;
+		height: 900px;
 		padding: 0;
 	}
-
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+	.container .jumbotron {
+		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/PK%20simo%20md.jpg") no-repeat;
+		height: 744px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+	.container .jumbotron {
+		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/PK%20simo%20pieni.jpg") no-repeat;
+		height: 576px;
+	}
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
 	.navbar-brand {
 		padding-top: 10px;
 		height: 80px;
@@ -118,6 +126,41 @@ h1 {
 		font-size: 1em;
 		margin-right: 5px;
 	}
+
+	#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
 }
+
+
 
 
