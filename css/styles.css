@@ -75,10 +75,16 @@ h1 {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -30px;}
 
 
 @media (min-width: 1200px) {
+	.container .jumbotron {
+		background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/simo%20jumbotron%20iso.jpeg") no-repeat;
+		height: 1600px;
+		border: 2px solid #696969;
+		padding: 0;
+	}
 
 }
 
