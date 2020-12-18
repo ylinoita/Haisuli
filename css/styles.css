@@ -11,7 +11,7 @@ body {
 }
 
 #logo-img {
-	background-image: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/simo.jpg");
+	background-image: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/simotarra%201%20kopio.png");
 	width: 200px;
 	height: 200px;
 	margin: 10px 10px 10px 0px
@@ -92,6 +92,11 @@ body {
 
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+	background: url("https://raw.githubusercontent.com/ylinoita/Haisuli/main/simo.jpg") no-repeat;
+	background-position: center;
 }
 
 
